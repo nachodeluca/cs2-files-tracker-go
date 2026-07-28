@@ -47,22 +47,10 @@ func NewClient(appId uint32, depotId uint32, branch string, tempDir string) (*Cl
 	)
 	defer cancel()
 
-	if err := steamClient.Connect(ctx); err != nil {
+	if err := connectSteamClient(ctx, steamClient); err != nil {
 		_ = steamClient.Close()
 
-		return nil, fmt.Errorf(
-			"connect to steam: %w",
-			err,
-		)
-	}
-
-	if err := steamClient.LoginAnonymous(ctx); err != nil {
-		_ = steamClient.Close()
-
-		return nil, fmt.Errorf(
-			"login anonymously to steam: %w",
-			err,
-		)
+		return nil, err
 	}
 
 	return &Client{
@@ -72,6 +60,31 @@ func NewClient(appId uint32, depotId uint32, branch string, tempDir string) (*Cl
 		Branch:  branch,
 		TempDir: tempDir,
 	}, nil
+}
+
+func connectSteamClient(ctx context.Context, steamClient *gamejanitor.Client) error {
+	const attempts = 3
+
+	var lastErr error
+	for attempt := 1; attempt <= attempts; attempt++ {
+		if err := steamClient.Connect(ctx); err != nil {
+			lastErr = fmt.Errorf("connect to steam (attempt %d/%d): %w", attempt, attempts, err)
+		} else if err := steamClient.LoginAnonymous(ctx); err != nil {
+			lastErr = fmt.Errorf("login anonymously to steam (attempt %d/%d): %w", attempt, attempts, err)
+		} else {
+			return nil
+		}
+
+		if attempt < attempts {
+			select {
+			case <-ctx.Done():
+				return ctx.Err()
+			case <-time.After(time.Duration(attempt) * 2 * time.Second):
+			}
+		}
+	}
+
+	return lastErr
 }
 
 func (c *Client) GetManifestId() (string, error) {
