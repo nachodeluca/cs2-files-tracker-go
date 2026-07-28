@@ -1,0 +1,16 @@
+/temp/
+
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+*.coverprofile
+coverage.out
+
+.DS_Store
+Thumbs.db
