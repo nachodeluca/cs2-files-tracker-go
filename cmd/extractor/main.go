@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cs2-files-tracker/internal/config"
-	"cs2-files-tracker/internal/steam"
-	"cs2-files-tracker/internal/storage"
-	"cs2-files-tracker/internal/vpk"
+	"github.com/nachodeluca/cs2-files-tracker-go/internal/config"
+	"github.com/nachodeluca/cs2-files-tracker-go/internal/steam"
+	"github.com/nachodeluca/cs2-files-tracker-go/internal/storage"
+	"github.com/nachodeluca/cs2-files-tracker-go/internal/vpk"
 )
 
 func main() {

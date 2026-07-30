@@ -8,17 +8,23 @@ import (
 	"log/slog"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
 	gamejanitor "github.com/warsmite/gamejanitor/steam"
 )
 
 type Client struct {
-	Client  *gamejanitor.Client
-	AppId   uint32
-	DepotId uint32
-	Branch  string
-	TempDir string
+	Client       *gamejanitor.Client
+	AppId        uint32
+	DepotId      uint32
+	Branch       string
+	TempDir      string
+	ChunkWorkers int
+
+	downloadSessionMu sync.Mutex
+	depotKey          []byte
+	cdnClient         *gamejanitor.CDNClient
 }
 
 func NewClient(appId uint32, depotId uint32, branch string, tempDir string) (*Client, error) {
@@ -54,11 +60,12 @@ func NewClient(appId uint32, depotId uint32, branch string, tempDir string) (*Cl
 	}
 
 	return &Client{
-		Client:  steamClient,
-		AppId:   appId,
-		DepotId: depotId,
-		Branch:  branch,
-		TempDir: tempDir,
+		Client:       steamClient,
+		AppId:        appId,
+		DepotId:      depotId,
+		Branch:       branch,
+		TempDir:      tempDir,
+		ChunkWorkers: 16,
 	}, nil
 }
 

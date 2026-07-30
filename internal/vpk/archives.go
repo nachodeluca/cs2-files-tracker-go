@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"cs2-files-tracker/internal/storage"
+	"github.com/nachodeluca/cs2-files-tracker-go/internal/storage"
 )
 
 var utf8BOM = []byte{0xEF, 0xBB, 0xBF}

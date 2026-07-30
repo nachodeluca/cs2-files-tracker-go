@@ -1,4 +1,4 @@
-module cs2-files-tracker
+module github.com/nachodeluca/cs2-files-tracker-go
 
 go 1.26.1
 
