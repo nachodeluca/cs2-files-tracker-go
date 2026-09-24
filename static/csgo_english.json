@@ -5962,6 +5962,8 @@
       "GameUI_ColorBlue": "Blue",
       "GameUI_ColorGreen": "Green",
       "GameUI_ColorLtBlue": "Lt Blue",
+      "GameUI_ColorPicker_Current": "Current",
+      "GameUI_ColorPicker_New": "New",
       "GameUI_ColorQuality": "Color Quality",
       "GameUI_ColorRed": "Red",
       "GameUI_ColorSliders": "Colors",
@@ -5985,6 +5987,9 @@
       "GameUI_CrosshairIFFOn": "On",
       "GameUI_CrosshairLength": "Length",
       "GameUI_CrosshairOutline": "Outline",
+      "GameUI_CrosshairOutline_Full": "Full Outline",
+      "GameUI_CrosshairOutline_Half": "Half Outline",
+      "GameUI_CrosshairOutline_None": "No Outline",
       "GameUI_CrosshairRecoil": "Follow Recoil",
       "GameUI_CrosshairRecoil_Desc": "Crosshair will leave the center of the screen to follow the weapon recoil pattern.",
       "GameUI_CrosshairSize": "Crosshair Size",
@@ -6005,6 +6010,8 @@
       "GameUI_CrosshairStyle6_Tooltip": "Dot Only",
       "GameUI_CrosshairStyle7": "Dynamic Quad",
       "GameUI_CrosshairStyle7_Tooltip": "Dynamic Quad",
+      "GameUI_CrosshairStyle8": "Static Square",
+      "GameUI_CrosshairStyle8_Tooltip": "Static Square",
       "GameUI_CrosshairStyle_Friendly": "Friendly Fire Warning",
       "GameUI_CrosshairThickness": "Thickness",
       "GameUI_CrosshairUpdated_Info": "The scale of this setting has changed. You may want to adjust it to your liking.",
@@ -14364,10 +14371,7 @@
       "SFUI_GameMode_gungameProgressive": "Arms Race",
       "SFUI_GameMode_new_user_training": "Training Day",
       "SFUI_GameMode_retakes": "Retakes",
-      "SFUI_GameMode_rush": [
-        "Rush",
-        "Rush"
-      ],
+      "SFUI_GameMode_rush": "Rush",
       "SFUI_GameMode_scrimcomp2v2": "Wingman",
       "SFUI_GameMode_scrimcomp5v5": "Weapons Expert",
       "SFUI_GameMode_skirmish": "War Games",
@@ -15415,14 +15419,8 @@
       "SFUI_LoginPerfectWorld_Title_Info": "Account Information",
       "SFUI_LookAtWeapon": "Inspect Weapon",
       "SFUI_MAINMENU": "MAIN MENU",
-      "SFUI_MAP_pet_photo_park": [
-        "Picnic",
-        "Picnic"
-      ],
-      "SFUI_MAP_pet_photo_studio": [
-        "Photo Studio",
-        "Photo Studio"
-      ],
+      "SFUI_MAP_pet_photo_park": "Picnic",
+      "SFUI_MAP_pet_photo_studio": "Photo Studio",
       "SFUI_MBox_CancelButton": "Cancel",
       "SFUI_MBox_OKButton": "OK",
       "SFUI_MISCELLANEOUS": "Miscellaneous",
