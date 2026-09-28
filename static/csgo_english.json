@@ -17299,6 +17299,7 @@
       "SFUI_Refresh_Workshop_Maps": "Refresh map list",
       "SFUI_Reload_Weapon": "Reload",
       "SFUI_ReportRadio": "Report Radio Message",
+      "SFUI_ReportingPlayers": "Reporting {s:target_player}",
       "SFUI_ResponseCurve": "Response Curve",
       "SFUI_ResponseCurve_Info": "Power curve: Smaller values result in faster aim vs. joystick deflection. Larger values give more precision when feathering the stick.",
       "SFUI_RetrievingDataNotification": "Retrieving Data...",
