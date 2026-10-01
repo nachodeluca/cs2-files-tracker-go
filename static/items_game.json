@@ -66986,14 +66986,13 @@
       {
         "4040": {
           "attributes": {
-            "set supply crate series": "480",
-            "volatile container": "2"
+            "set supply crate series": "480"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_crate_sticker_pack_cologne2026_all_desc",
           "item_name": "#CSGO_crate_sticker_pack_cologne2026_all",
           "name": "crate_sticker_pack_cologne2026_rankings",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_stickercap1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_stickercap1 volatile_pricing_fixed"
         },
         "5309": {
           "name": "tournament_pass_cologne2026_credits1",
@@ -67061,14 +67060,13 @@
         },
         "5316": {
           "attributes": {
-            "set supply crate series": "471",
-            "volatile container": "2"
+            "set supply crate series": "471"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_crate_sticker_pack_cologne2026_all_desc",
           "item_name": "#CSGO_crate_sticker_pack_cologne2026_all",
           "name": "crate_sticker_pack_cologne2026_all",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_stickercap1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_stickercap1"
         },
         "5317": {
           "attributes": {
@@ -67156,80 +67154,73 @@
         },
         "5323": {
           "attributes": {
-            "set supply crate series": "472",
-            "volatile container": "2"
+            "set supply crate series": "472"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_Tournament_Event_Stage_49",
           "item_name": "#keychain_kc_cologne2026",
           "name": "crate_highlights_pack_cologne2026_1",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_uniform1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_uniform1"
         },
         "5324": {
           "attributes": {
-            "set supply crate series": "473",
-            "volatile container": "2"
+            "set supply crate series": "473"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_Tournament_Event_Stage_65",
           "item_name": "#keychain_kc_cologne2026",
           "name": "crate_highlights_pack_cologne2026_2",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_uniform1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_uniform1"
         },
         "5325": {
           "attributes": {
-            "set supply crate series": "474",
-            "volatile container": "2"
+            "set supply crate series": "474"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_Tournament_Event_Stage_83",
           "item_name": "#keychain_kc_cologne2026",
           "name": "crate_highlights_pack_cologne2026_3",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_uniform1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_uniform1"
         },
         "5326": {
           "attributes": {
-            "set supply crate series": "475",
-            "volatile container": "2"
+            "set supply crate series": "475"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_Tournament_Event_Stage_6",
           "item_name": "#keychain_kc_cologne2026",
           "name": "crate_highlights_pack_cologne2026_4",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_uniform1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_uniform1"
         },
         "5327": {
           "attributes": {
-            "set supply crate series": "476",
-            "volatile container": "2"
+            "set supply crate series": "476"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_Tournament_Event_Stage_8",
           "item_name": "#keychain_kc_cologne2026",
           "name": "crate_highlights_pack_cologne2026_5",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_uniform1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_uniform1"
         },
         "5328": {
           "attributes": {
-            "set supply crate series": "477",
-            "volatile container": "2"
+            "set supply crate series": "477"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_Tournament_Event_Stage_97",
           "item_name": "#keychain_kc_cologne2026",
           "name": "crate_highlights_pack_cologne2026_6",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_uniform1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_uniform1"
         },
         "5329": {
           "attributes": {
-            "set supply crate series": "478",
-            "volatile container": "2"
+            "set supply crate series": "478"
           },
           "image_inventory": "econ/tournaments/cologne2026/cologne2026_credits",
           "item_description": "#CSGO_crate_sticker_pack_cologne2026_all_desc",
           "item_name": "#CSGO_crate_sticker_pack_cologne2026_all",
           "name": "crate_sticker_pack_cologne2026_champion",
-          "prefab": "cologne2026_sticker_capsule_prefab volatile_pricing_stickercap1"
+          "prefab": "cologne2026_sticker_capsule_prefab_volatile volatile_pricing_stickercap1"
         }
       }
     ],
@@ -88583,6 +88574,12 @@
           "inv_container_and_tools": "sticker_capsule",
           "prefab": "weapon_case_base"
         },
+        "cologne2026_sticker_capsule_prefab_volatile": {
+          "attributes": {
+            "volatile container": "3"
+          },
+          "prefab": "cologne2026_sticker_capsule_prefab"
+        },
         "cologne2026_tournament_credits_prefab": {
           "attributes": {
             "pedestal display model": "models/inventory_items/major_token/major_token_stacks.vmdl",
@@ -88611,14 +88608,8 @@
             "tournament event id": "26"
           },
           "first_sale_date": "2026-05-20",
-          "inv_graphic_art": "graffiti",
           "item_description": "#CSGO_TournamentJournal_cologne2026_Desc",
-          "item_slot2": "spray",
-          "item_sub_position2": "spray0",
-          "prefab": "fan_shield",
-          "tool": {
-            "type": "spraypaint"
-          }
+          "prefab": "fan_shield"
         },
         "cologne2026_tournament_pass_prefab": {
           "attributes": {
