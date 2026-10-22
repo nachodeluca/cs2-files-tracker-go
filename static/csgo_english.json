@@ -39965,6 +39965,7 @@
       "Team_Cash_Award_Elim_Bomb": " \u0006+$%s1\u0001 team income for eliminating the enemy team",
       "Team_Cash_Award_Elim_Hostage": " \u0006+$%s1\u0001 team income for eliminating the enemy team",
       "Team_Cash_Award_Generic": " \u0006+$%s1\u0001 team income",
+      "Team_Cash_Award_Generic_Negative": " \u0007-$%s1\u0001 team income",
       "Team_Cash_Award_Hostage_Alive": " \u0006+$%s1\u0001 team income for surviving hostages",
       "Team_Cash_Award_Hostage_Interaction": " \u0006+$%s1\u0001 team income for reaching a hostage",
       "Team_Cash_Award_Loser_Bonus": " \u0006+$%s1\u0001 team income for losing",
