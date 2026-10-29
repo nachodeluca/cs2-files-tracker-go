@@ -38369,6 +38369,7 @@
       "Team_Cash_Award_Elim_Bomb": " \u0006+%s1 $\u0001 à equipa por eliminar a equipa adversária",
       "Team_Cash_Award_Elim_Hostage": " \u0006+%s1 $\u0001 à equipa por eliminar a equipa adversária",
       "Team_Cash_Award_Generic": " \u0006+%s1 $\u0001 de pagamento à equipa",
+      "Team_Cash_Award_Generic_Negative": " \u0007-%s1 $\u0001 de pagamento à equipa",
       "Team_Cash_Award_Hostage_Alive": " \u0006+%s1 $\u0001 à equipa pelos reféns sobreviventes",
       "Team_Cash_Award_Hostage_Interaction": " \u0006+%s1 $\u0001 à equipa por ter chegado a um refém",
       "Team_Cash_Award_Loser_Bonus": " \u0006+%s1 $\u0001 à equipa por perder",

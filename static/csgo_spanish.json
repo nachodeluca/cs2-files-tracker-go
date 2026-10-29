@@ -38279,6 +38279,7 @@
       "Team_Cash_Award_Elim_Bomb": " \u0006+%s1 $\u0001 de ingresos del equipo por eliminar al equipo enemigo.",
       "Team_Cash_Award_Elim_Hostage": " \u0006+%s1 $\u0001 de ingresos del equipo por eliminar al equipo enemigo.",
       "Team_Cash_Award_Generic": " \u0006+%s1 $\u0001 de ingresos del equipo.",
+      "Team_Cash_Award_Generic_Negative": " \u0007-%s1 $\u0001 de ingresos del equipo.",
       "Team_Cash_Award_Hostage_Alive": " \u0006+%s1 $\u0001 de ingresos del equipo por los rehenes con vida.",
       "Team_Cash_Award_Hostage_Interaction": " \u0006+%s1 $\u0001 de ingresos del equipo por llegar a un rehén.",
       "Team_Cash_Award_Loser_Bonus": " \u0006+%s1 $\u0001 de ingresos del equipo por perder.",
