@@ -17798,6 +17798,8 @@
       "SFUI_Settings_Paged_Pool_Mem_Info": "Available CPU memory may be affected by other programs, such as anti-virus programs running in the background.",
       "SFUI_Settings_Pan_Behavior": "L/R Isolation",
       "SFUI_Settings_Pan_Behavior_Tip": "<b>0% - Physically Accurate (default):</b> Physically modeled sound panning behavior most accurately reflecting the emitter position.<br/><br/><b>100% - Isolated L/R:</b> Sound emitters that are directly to the side of the player will be hard panned with minimal blending into the opposite L/R channel. This provides a strong sense of left vs right but can be positionally misleading at certain angles to the listener. For players who prefer legacy sound panning behaviour.",
+      "SFUI_Settings_Parallax": "Parallax Occlusion Mapping",
+      "SFUI_Settings_Parallax_Info": "Gives some surfaces, such as snow, real looking depth.  Enabling it can degrade graphics performance.",
       "SFUI_Settings_ParticleDetail": "Particle Detail",
       "SFUI_Settings_ParticleDetail_Info": "Particle detail controls the complexity of particle effects and whether particles cast shadows. Higher settings increase visual quality but can degrade graphics performance.",
       "SFUI_Settings_Performance": "Performance",
